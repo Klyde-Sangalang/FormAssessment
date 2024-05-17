@@ -45,7 +45,7 @@ export default function Form() {
                     <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange} required/>
                     <h3>Date of Birth</h3>
                     <input type="date" id="dob" name="dob" value={formData.dob} onChange={handleChange} required/>
-                    <h3>Gender :</h3>
+                    <h3>Gender</h3>
                     <select id='gender' name='gender' value={formData.gender} onChange={handleChange} required>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
